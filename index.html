@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+<body>
+    <div class="box">
+        <div id="start-screen">
+            <h1>Bem-vindo ao Quiz!</h1>
+            <p>Clique no botão abaixo para começar.</p>
+            <button id="start-btn">Iniciar Quiz</button>
+        </div>
+        <div class="app" style="display: none;">
+            <div class="title-questions">
+                <h1>Quiz</h1>
+                <h5 id="total-questions">1/15</h5>
+            </div>
+            <div class="quiz">
+                <h2 id="question">Texto da questão aqui</h2>
+                <div id="answer-buttons">
+                    <button class="btn">Pergunta 1</button>
+                    <button class="btn">Pergunta 2</button>
+                    <button class="btn">Pergunta 3</button>
+                    <button class="btn">Pergunta 4</button>
+                </div>
+                <button id="next-btn">Próxima</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <footer>
+        <span>&#169; Mauricio, Todos os direitos reservados</span>
+    </footer>
+</body>
+</html>
