@@ -2,7 +2,7 @@
 
 Projeto construído para expansão do portfólio pessoal.
 
-## :tools: Tecnologias
+## 🛠 Tecnologias
 
 - HTML
 - CSS
